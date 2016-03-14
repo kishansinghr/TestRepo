@@ -4,8 +4,8 @@
  * and open the template in the editor.
  */
 
-angular.module('myApp').controller('MainController',['$scope',function($function){
-    $scope.message = "hello world";    
+var myapp = angular.module('myApp',[]);
+        
+myapp.controller('MainController',['$scope',function($scope){
+    $scope.message = "hello world";            
 }]);
-
-
