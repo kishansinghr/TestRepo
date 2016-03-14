@@ -7,5 +7,8 @@
 var myapp = angular.module('myApp',[]);
         
 myapp.controller('MainController',['$scope',function($scope){
-    $scope.message = "hello world";            
+    $scope.message = "hello world";     
+    $scope.onclick = function(){
+        console.log("clicked")
+    };
 }]);
