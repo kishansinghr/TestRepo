@@ -6,7 +6,7 @@
 
 var myapp = angular.module('myApp',[]);
         
-myapp.controller('MainController',['$scope',function($scope){
+myapp.controller('MainController',['myService','$scope',function(myService,$scope){
     $scope.message = "hello world";     
     $scope.onclick = function(){
         console.log("clicked")
