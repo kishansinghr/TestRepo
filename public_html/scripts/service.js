@@ -1,6 +1,6 @@
 angular.module('myApp')
-.service("myService',[function(){
+.service("myService",[function(){
 	return {
 	
-};
+    };
 }]);
